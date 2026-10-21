@@ -335,7 +335,10 @@ ini_options.addopts = [
 ]
 ini_options.markers = [
   "mat_ops: mark a test as utilizing matrix operations.",
+  "unit: mark a unit test.",
+  "csv_data: mark a test using external CSV data.",
 ]
+
 
 [tool.coverage]
 report.omit = [
